@@ -8,7 +8,9 @@ export const TaskList = ({ newTask }) => {
   // Database se tasks lao
   const getTasks = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/api/gettask");
+      const response = await axios.get(
+        "https://task-board-my33.onrender.com/api/gettask",
+      );
 
       setTasks(response.data);
     } catch (error) {
@@ -40,7 +42,7 @@ export const TaskList = ({ newTask }) => {
   const deleteTask = async (id) => {
     try {
       const response = await axios.delete(
-        `http://localhost:3000/api/delete/${id}`,
+        `https://task-board-my33.onrender.com/api/delete/${id}`,
       );
 
       console.log(response.data);
@@ -56,7 +58,7 @@ export const TaskList = ({ newTask }) => {
   const changeStatus = async (id, newStatus) => {
     try {
       const response = await axios.patch(
-        `http://localhost:3000/api/update/${id}`,
+        `https://task-board-my33.onrender.com/update/${id}`,
         {
           status: newStatus,
         },

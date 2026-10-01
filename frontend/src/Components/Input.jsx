@@ -7,10 +7,13 @@ export const Input = ({ setMessage, setNewTask }) => {
 
   const handleTask = async () => {
     try {
-      const response = await axios.post("http://localhost:3000/api/addtask", {
-        title,
-        status,
-      });
+      const response = await axios.post(
+        "https://task-board-my33.onrender.com/api/addtask",
+        {
+          title,
+          status,
+        },
+      );
 
       console.log(response.data);
 
