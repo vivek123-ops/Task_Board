@@ -9,7 +9,7 @@ export const TaskList = ({ newTask }) => {
   const getTasks = async () => {
     try {
       const response = await axios.get(
-        "https://task-board-my33.onrender.com/api/gettask",
+        "https://task-board-xnlt.onrender.com/api/gettask",
       );
 
       setTasks(response.data);
@@ -42,7 +42,7 @@ export const TaskList = ({ newTask }) => {
   const deleteTask = async (id) => {
     try {
       const response = await axios.delete(
-        `https://task-board-my33.onrender.com/api/delete/${id}`,
+        `https://task-board-xnlt.onrender.com/api/delete/${id}`,
       );
 
       console.log(response.data);
@@ -58,7 +58,7 @@ export const TaskList = ({ newTask }) => {
   const changeStatus = async (id, newStatus) => {
     try {
       const response = await axios.patch(
-        `https://task-board-my33.onrender.com/update/${id}`,
+        `https://task-board-xnlt.onrender.com/api/update/${id}`,
         {
           status: newStatus,
         },

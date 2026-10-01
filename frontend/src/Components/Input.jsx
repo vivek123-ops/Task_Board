@@ -8,7 +8,7 @@ export const Input = ({ setMessage, setNewTask }) => {
   const handleTask = async () => {
     try {
       const response = await axios.post(
-        "https://task-board-my33.onrender.com/api/addtask",
+        "https://task-board-xnlt.onrender.com/api/addtask",
         {
           title,
           status,
