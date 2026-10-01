@@ -1,0 +1,27 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Task Board is a full-stack web application that I built for managing tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "frontend": "npm run dev --prefix frontend",
+    "backend": "node backend/app.js",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivek123-ops/Task_Board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vivek123-ops/Task_Board/issues"
+  },
+  "homepage": "https://github.com/vivek123-ops/Task_Board#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
