@@ -6,6 +6,14 @@ Task Board is a full-stack task management web application that allows users to 
 
 👉 https://task-board-hcvns95qz-vivekshrivastav325-1750s-projects.vercel.app/
 
+## 🖥️ UI Compatibility
+
+This project is currently designed and optimized for **desktop screens**.
+
+- Best viewed on desktop/laptop.
+- The UI is optimized for a browser zoom level of **90%**.
+- For the best visual experience, use **90% browser zoom**.
+
 ## ✨ Features
 
 - Add a new task
