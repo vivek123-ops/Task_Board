@@ -4,7 +4,7 @@ Task Board is a full-stack task management web application that allows users to 
 
 ## 🚀 Live Demo
 
-👉 [View Live Application](https://task-board-esph0ws5u-vivekshrivastav325-1750s-projects.vercel.app/)
+👉 https://task-board-hcvns95qz-vivekshrivastav325-1750s-projects.vercel.app/
 
 ## ✨ Features
 
